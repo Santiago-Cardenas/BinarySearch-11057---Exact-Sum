@@ -21,11 +21,8 @@ public class Main {
     }
 
     public static void main(String[] args) throws IOException {
-        final long startTime = System.nanoTime();
         Main main = new Main();
         main.menu();
-        final long duration = System.nanoTime() - startTime;
-        System.out.println(duration/1000000000);
     }
 
     public void menu() throws IOException {
